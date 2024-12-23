@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "*** starting the merged-battery service ***"
+exec 2>&1
+exec /usr/bin/env python /data/etc/merged-battery/main.py
